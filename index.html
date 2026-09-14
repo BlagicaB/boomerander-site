@@ -43,6 +43,16 @@
         "publisher": { "@id": "https://boomerander.com/#org" }
       },
       {
+        "@type": "WebPage",
+        "@id": "https://boomerander.com/#webpage",
+        "url": "https://boomerander.com/",
+        "name": "Boomerander | Michiganders who left and came back",
+        "isPartOf": { "@id": "https://boomerander.com/#website" },
+        "about": { "@id": "https://boomerander.com/#org" },
+        "datePublished": "2026-09-14",
+        "dateModified": "2026-09-14"
+      },
+      {
         "@type": "DefinedTerm",
         "name": "Boomerander",
         "description": "A Michigander who moved away, built a life or a career somewhere else and came back to Michigan on purpose.",
@@ -53,6 +63,8 @@
         "mainEntity": [
           { "@type": "Question", "name": "What is a Boomerander?",
             "acceptedAnswer": { "@type": "Answer", "text": "A Boomerander is a Michigander who moved away, built a life or a career somewhere else and came back to Michigan on purpose. The word is a play on Michigander." } },
+          { "@type": "Question", "name": "Who started Boomerander?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A Boomerander. It was started by a Michigander who spent a few decades away, came home and realized there's a whole club of people who did the same thing. The goal is to band together and use what we learned in other places to help Michigan." } },
           { "@type": "Question", "name": "How many people who leave Michigan move back?",
             "acceptedAnswer": { "@type": "Answer", "text": "About a third. The Federal Reserve Bank of Cleveland found that 34% of young adults who leave metro Detroit eventually move back, compared with 30% for Grand Rapids and a 28% national average." } },
           { "@type": "Question", "name": "How many people leave Michigan each year?",
@@ -193,6 +205,7 @@
     .stats { padding: 6rem 0; }
     .stats header { margin-bottom: 3rem; }
     .stats header .lede { margin-top: 1.25rem; }
+    .stats .updated { margin: .75rem 0 0; font-size: .85rem; color: var(--muted); }
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -224,6 +237,11 @@
     .why .n { font: 800 .85rem/1 var(--sans); letter-spacing: .12em; color: var(--cherry); }
     .why h3 { font-size: 1.5rem; margin: .75rem 0 .75rem; }
     .why p { margin: 0; }
+
+    /* ---------- Founder note ---------- */
+    .origin { padding: 5.5rem 0 1rem; }
+    .origin h2 { margin-bottom: 1.5rem; }
+    .origin .lede + .lede { margin-top: 1rem; }
 
     /* ---------- Form ---------- */
     .join { padding: 6rem 0 7rem; }
@@ -374,6 +392,7 @@
           <p class="eyebrow">By the numbers</p>
           <h2>Michigan is great at raising people.<br><em>Getting them back</em> is the trick.</h2>
           <p class="lede">Most people here were born here. Plenty leave. A real share come home. Here's what the data says.</p>
+          <p class="updated">Numbers updated <time datetime="2026-09-14">September 2026</time></p>
         </header>
 
         <div class="grid">
@@ -438,6 +457,16 @@
             <p>Once by accident of birth. Once on purpose. People who pick a place tend to work hardest to make it better. We want to put that to use.</p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Founder note -->
+    <section class="origin">
+      <div class="wrap narrow">
+        <p class="eyebrow">Why this exists</p>
+        <h2>Started by a <em>Boomerander.</em></h2>
+        <p class="lede">Boomerander was started by a Michigander who spent a few decades away, came home and realized something: there are a lot of us. People who left, learned how other places work and chose to come back.</p>
+        <p class="lede">It's a pretty great club. Most of its members just don't know they're in it. So this is the clubhouse, and the idea is simple: band together and put what we learned out there to work for the state that raised us.</p>
       </div>
     </section>
 
@@ -576,6 +605,10 @@
         <div class="qa">
           <h3>What is a Boomerander?</h3>
           <p>A Boomerander is a Michigander who moved away, built a life or a career somewhere else and came back to Michigan on purpose. The word is a play on Michigander.</p>
+        </div>
+        <div class="qa">
+          <h3>Who started Boomerander?</h3>
+          <p>A Boomerander. It was started by a Michigander who spent a few decades away, came home and realized there's a whole club of people who did the same thing. The goal is to band together and use what we learned in other places to help Michigan.</p>
         </div>
         <div class="qa">
           <h3>How many people who leave Michigan move back?</h3>
