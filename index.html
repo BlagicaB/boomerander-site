@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boomerander | Michiganders who left and came back</title>
+  <meta name="description" content="A celebration of Boomeranders: Michiganders who moved away, got good at something and came home. Join the Brain Gain.">
+  <link rel="canonical" href="https://boomerander.com/">
+  <meta property="og:title" content="Boomerander">
+  <meta property="og:description" content="You left. You learned. You came back. Join the Brain Gain: Michigan people putting outside experience to work here.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://boomerander.com/">
+  <meta property="og:image" content="https://boomerander.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Boomerander logo, a boomerang over the state of Michigan, with the line You left. You learned. You came home.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0E2A47">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://boomerander.com/#org",
+        "name": "Boomerander",
+        "url": "https://boomerander.com/",
+        "logo": "https://boomerander.com/brand/boomerander-logo-512.png",
+        "description": "An independent community for Michiganders who moved away and came back, and a network putting their outside experience to work in Michigan.",
+        "areaServed": { "@type": "State", "name": "Michigan" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://boomerander.com/#website",
+        "url": "https://boomerander.com/",
+        "name": "Boomerander",
+        "publisher": { "@id": "https://boomerander.com/#org" }
+      },
+      {
+        "@type": "DefinedTerm",
+        "name": "Boomerander",
+        "description": "A Michigander who moved away, built a life or a career somewhere else and came back to Michigan on purpose.",
+        "url": "https://boomerander.com/"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is a Boomerander?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A Boomerander is a Michigander who moved away, built a life or a career somewhere else and came back to Michigan on purpose. The word is a play on Michigander." } },
+          { "@type": "Question", "name": "How many people who leave Michigan move back?",
+            "acceptedAnswer": { "@type": "Answer", "text": "About a third. The Federal Reserve Bank of Cleveland found that 34% of young adults who leave metro Detroit eventually move back, compared with 30% for Grand Rapids and a 28% national average." } },
+          { "@type": "Question", "name": "How many people leave Michigan each year?",
+            "acceptedAnswer": { "@type": "Answer", "text": "About 155,000 people moved from Michigan to another state in 2023 and about 135,000 moved in, according to U.S. Census Bureau data. From July 2024 to July 2025 Michigan gained 1,796 more residents from other states than it lost, its first net gain since at least 1990." } },
+          { "@type": "Question", "name": "What is the Brain Gain?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The Brain Gain is Boomerander's free network of Michigan people with experience from other places. Members use it to find jobs, hire, mentor, make introductions and help other people move back to Michigan." } },
+          { "@type": "Question", "name": "Do I need to be looking for a job to join?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Plenty of Boomeranders already have jobs. You can join to mentor, make introductions, share your story or help someone else find their way home." } },
+          { "@type": "Question", "name": "Is Boomerander a government program?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. Boomerander is an independent community built by people who left Michigan and came back. It is not run by a state agency or an economic development group." } },
+          { "@type": "Question", "name": "Who can join?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Anyone who moved back to Michigan, anyone planning to come back, Michiganders who never left but want to help and employers looking for people with outside experience." } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --navy: #0E2A47;
+      --lake: #2F6FA3;
+      --sky: #DCEAF4;
+      --gold: #F2B33D;
+      --cherry: #C8352B;
+      --ink: #14202B;
+      --body: #37434E;
+      --muted: #6A7580;
+      --rule: #E4DCCD;
+      --sand: #FBF7F0;
+      --paper: #FFFFFF;
+      --serif: "Fraunces", Georgia, "Times New Roman", serif;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.6;
+      color: var(--body);
+      background: var(--sand);
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { max-width: 100%; }
+    a { color: var(--lake); }
+    a:hover { color: var(--navy); }
+
+    .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 1.5rem; }
+    .narrow { max-width: 720px; }
+
+    .eyebrow {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--cherry);
+      margin: 0 0 1rem;
+    }
+
+    h1, h2, h3 { font-family: var(--serif); color: var(--ink); line-height: 1.08; margin: 0; }
+    h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 800; letter-spacing: -0.01em; }
+    h2 em { font-style: italic; font-weight: 600; color: var(--lake); }
+
+    .lede { font-size: 1.15rem; max-width: 40rem; }
+
+    .btn {
+      display: inline-block;
+      font: 600 1rem/1 var(--sans);
+      padding: 1rem 1.5rem;
+      border-radius: 2px;
+      text-decoration: none;
+      border: 2px solid var(--ink);
+      cursor: pointer;
+      transition: transform .15s ease, background .15s ease, color .15s ease;
+    }
+    .btn-solid { background: var(--ink); color: #fff; }
+    .btn-solid:hover { background: var(--navy); border-color: var(--navy); color: #fff; transform: translateY(-1px); }
+    .btn-line { background: transparent; color: var(--ink); }
+    .btn-line:hover { background: var(--ink); color: #fff; }
+
+    /* ---------- Top bar ---------- */
+    .topbar { position: absolute; inset: 0 0 auto 0; z-index: 2; }
+    .topbar .wrap { display: flex; justify-content: space-between; align-items: center; padding-top: 1.25rem; padding-bottom: 1.25rem; }
+    .logo { font: 800 1.35rem/1 var(--serif); color: #fff; text-decoration: none; display: flex; align-items: center; gap: .55rem; }
+    .logo svg { width: 42px; height: 42px; }
+    .logo:hover { color: #fff; }
+    .topbar nav a { color: #fff; font-weight: 600; font-size: .95rem; text-decoration: none; border-bottom: 2px solid var(--gold); padding-bottom: 2px; }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      position: relative;
+      background: var(--navy);
+      color: #D7E3EE;
+      padding: 8.5rem 0 6rem;
+      overflow: hidden;
+    }
+    .hero::after {
+      content: "";
+      position: absolute; left: 0; right: 0; bottom: 0; height: 6px;
+      background: linear-gradient(90deg, var(--gold), var(--cherry), var(--lake));
+    }
+    .hero .wrap { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); gap: 3rem; align-items: center; }
+    .hero .eyebrow { color: var(--gold); }
+    .hero h1 { color: #fff; font-size: clamp(2.8rem, 6vw, 4.6rem); font-weight: 800; letter-spacing: -0.02em; }
+    .hero h1 em { font-style: italic; font-weight: 600; color: var(--gold); }
+    .hero .lede { margin: 1.75rem 0 2.25rem; color: #C9D8E6; }
+    .hero .btn-solid { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+    .hero .btn-solid:hover { background: #fff; border-color: #fff; color: var(--ink); }
+    .hero .btn-line { color: #fff; border-color: rgba(255,255,255,.55); margin-left: .5rem; }
+    .hero .btn-line:hover { background: #fff; color: var(--ink); border-color: #fff; }
+    .hero .note { margin: 1.5rem 0 0; font-size: .92rem; color: #9FB6CB; padding-left: .85rem; border-left: 3px solid var(--gold); text-wrap: balance; }
+
+    .hero-mark { display: block; width: 100%; max-width: 420px; height: auto; justify-self: center; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+
+    /* ---------- Definition ---------- */
+    .define { padding: 5rem 0; border-bottom: 1px solid var(--rule); }
+    .define .card {
+      background: var(--paper);
+      border-left: 6px solid var(--gold);
+      padding: 2.25rem 2.5rem;
+      box-shadow: 0 1px 0 var(--rule);
+    }
+    .define .word { font: 800 clamp(2rem, 5vw, 2.8rem)/1 var(--serif); color: var(--ink); }
+    .define .phon { font-family: var(--serif); font-style: italic; color: var(--muted); margin: .5rem 0 1.25rem; font-size: 1.1rem; }
+    .define .phon b { font-style: normal; font-family: var(--sans); font-size: .8rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--cherry); margin-right: .5rem; }
+    .define ol { margin: 0; padding-left: 1.25rem; font-size: 1.1rem; }
+    .define li + li { margin-top: .6rem; }
+    .define li::marker { font-family: var(--serif); font-weight: 800; color: var(--lake); }
+    .define .usage { margin: 1.25rem 0 0; color: var(--muted); font-style: italic; }
+
+    /* ---------- Stats ---------- */
+    .stats { padding: 6rem 0; }
+    .stats header { margin-bottom: 3rem; }
+    .stats header .lede { margin-top: 1.25rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--rule);
+      border-left: 1px solid var(--rule);
+    }
+    .stat {
+      padding: 2rem 1.75rem 1.75rem;
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      background: var(--paper);
+      display: flex; flex-direction: column;
+    }
+    .stat .num {
+      font: 800 clamp(2.6rem, 5vw, 3.4rem)/1 var(--serif);
+      color: var(--navy);
+      letter-spacing: -0.02em;
+      font-variant-numeric: tabular-nums;
+    }
+    .stat.hot .num { color: var(--cherry); }
+    .stat p { margin: .9rem 0 1.25rem; color: var(--body); }
+    .stat cite { margin-top: auto; font-style: normal; font-size: .78rem; color: var(--muted); }
+    .stat cite a { color: var(--muted); }
+    .stat cite a:hover { color: var(--lake); }
+
+    /* ---------- Why ---------- */
+    .why { background: var(--sky); padding: 6rem 0; }
+    .why .points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; margin-top: 3rem; }
+    .why .n { font: 800 .85rem/1 var(--sans); letter-spacing: .12em; color: var(--cherry); }
+    .why h3 { font-size: 1.5rem; margin: .75rem 0 .75rem; }
+    .why p { margin: 0; }
+
+    /* ---------- Form ---------- */
+    .join { padding: 6rem 0 7rem; }
+    .join header { margin-bottom: 2.5rem; }
+    .join header .lede { margin-top: 1.25rem; }
+    form {
+      background: var(--paper);
+      border-top: 6px solid var(--navy);
+      padding: 2.5rem;
+      box-shadow: 0 1px 0 var(--rule), 0 20px 40px -30px rgba(14,42,71,.35);
+    }
+    fieldset { border: 0; padding: 0; margin: 0 0 2rem; }
+    legend {
+      font: 700 .78rem/1 var(--sans);
+      text-transform: uppercase; letter-spacing: .18em;
+      color: var(--lake);
+      padding: 0 0 1rem;
+      width: 100%;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.25rem;
+    }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 1.25rem; align-items: end; }
+    .field { display: flex; flex-direction: column; margin-bottom: 1.1rem; }
+    .field.full { grid-column: 1 / -1; }
+    label, .label { font-weight: 600; color: var(--ink); font-size: .95rem; margin-bottom: .4rem; }
+    .opt { font-weight: 400; color: var(--muted); }
+    .hint { font-size: .85rem; color: var(--muted); margin: -.1rem 0 .5rem; }
+    input[type=text], input[type=email], input[type=url], input[type=number], select, textarea {
+      font: 400 1rem/1.4 var(--sans);
+      color: var(--ink);
+      background: var(--sand);
+      border: 1px solid #D5CCBC;
+      border-radius: 2px;
+      padding: .8rem .9rem;
+      width: 100%;
+    }
+    textarea { min-height: 7.5rem; resize: vertical; }
+    input:focus, select:focus, textarea:focus { outline: 3px solid rgba(47,111,163,.3); border-color: var(--lake); background: #fff; }
+
+    .choices { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+    .choice {
+      display: flex; gap: .65rem; align-items: flex-start;
+      padding: .8rem .9rem;
+      border: 1px solid #D5CCBC; border-radius: 2px;
+      background: var(--sand);
+      font-weight: 500; color: var(--ink); font-size: .95rem; margin: 0;
+      cursor: pointer;
+    }
+    .choice:has(input:checked) { border-color: var(--lake); background: #EEF5FA; }
+    .choice input { margin-top: .25rem; accent-color: var(--navy); }
+
+    .consent { display: flex; gap: .65rem; align-items: flex-start; font-weight: 400; font-size: .92rem; color: var(--body); margin: .5rem 0 1.75rem; }
+    .consent input { margin-top: .3rem; accent-color: var(--navy); }
+    .hp { position: absolute; left: -9999px; }
+
+    .submit-row { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+    .submit-row small { color: var(--muted); }
+    .status { margin-top: 1.25rem; padding: 1rem 1.25rem; border-left: 4px solid var(--lake); background: #EEF5FA; color: var(--ink); }
+    .status.err { border-color: var(--cherry); background: #FBEDEB; }
+
+    .thanks { text-align: center; padding: 3.5rem 2rem; }
+    .thanks h3 { font-size: 2rem; margin-bottom: .75rem; }
+
+    /* ---------- FAQ ---------- */
+    .faq { padding: 5.5rem 0 6rem; background: var(--paper); border-top: 1px solid var(--rule); }
+    .faq h2 { margin-bottom: 2.5rem; }
+    .faq .qa { border-top: 1px solid var(--rule); padding: 1.5rem 0; }
+    .faq .qa:last-child { border-bottom: 1px solid var(--rule); }
+    .faq h3 { font-size: 1.35rem; margin-bottom: .5rem; }
+    .faq .qa p { margin: 0; }
+
+    /* ---------- Footer ---------- */
+    footer { background: var(--navy); color: #AFC2D3; padding: 3.5rem 0; font-size: .92rem; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap; align-items: end; }
+    footer .logo { font-size: 1.6rem; }
+    footer p { margin: .5rem 0 0; }
+    footer a { color: #fff; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 900px) {
+      .hero .wrap { grid-template-columns: 1fr; }
+      .hero-mark { max-width: 300px; margin: 1rem auto 0; }
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .why .points { grid-template-columns: 1fr; gap: 2rem; }
+    }
+    @media (max-width: 600px) {
+      body { font-size: 16px; }
+      .topbar nav .long { display: none; }
+      .hero { padding: 6.5rem 0 4.5rem; }
+      .hero .btn { display: block; text-align: center; }
+      .hero .btn-line { margin: .75rem 0 0; }
+      .grid { grid-template-columns: 1fr; }
+      .row, .choices { grid-template-columns: 1fr; }
+      form { padding: 1.75rem 1.25rem; }
+      .define .card { padding: 1.75rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap">
+      <a class="logo" href="#top" aria-label="Boomerander home">
+        <svg viewBox="28.4 50.6 969.4 969.4" aria-hidden="true"><path d="M167.7 337.7 L171.8 333.0 L176.0 328.2 L180.2 323.5 L184.4 318.9 L188.7 314.3 L192.9 309.7 L197.2 305.1 L201.5 300.6 L205.9 296.1 L210.2 291.6 L214.6 287.1 L219.0 282.7 L223.5 278.4 L228.0 274.0 L232.5 269.7 L237.0 265.5 L241.5 261.2 L246.1 257.0 L250.7 252.8 L255.3 248.7 L259.9 244.6 L264.6 240.5 L269.3 236.5 L274.0 232.4 L278.8 228.5 L283.6 224.5 L288.4 220.6 L293.2 216.7 L298.0 212.9 L302.9 209.1 L307.8 205.3 L312.7 201.5 L317.7 197.8 L322.7 194.1 L327.7 190.5 L332.7 186.8 L337.7 183.2 L342.8 179.7 L347.9 176.2 L353.0 172.7 L358.2 169.2 L363.4 165.8 L368.6 162.4 L373.8 159.0 L379.1 155.7 L384.3 152.4 L390.7 149.0 L397.1 145.9 L403.5 143.0 L409.8 140.5 L416.2 138.2 L422.5 136.3 L428.9 134.6 L435.2 133.2 L441.5 132.2 L447.9 131.4 L454.2 130.9 L460.5 130.6 L466.8 130.7 L473.1 131.1 L479.4 131.7 L485.7 132.7 L492.0 133.9 L498.3 135.5 L504.5 137.3 L510.8 139.4 L517.1 141.8 L523.3 144.5 L529.6 147.5 L535.8 150.8 L543.1 155.1 L550.4 159.5 L557.6 164.0 L564.8 168.4 L572.0 173.0 L579.1 177.5 L586.2 182.2 L593.3 186.8 L600.3 191.5 L607.3 196.3 L614.2 201.1 L621.2 205.9 L628.0 210.8 L634.9 215.7 L641.7 220.7 L648.5 225.7 L655.2 230.8 L662.0 235.9 L668.6 241.0 L675.3 246.2 L681.9 251.4 L688.4 256.7 L695.0 262.0 L701.5 267.4 L708.0 272.8 L714.4 278.3 L720.8 283.8 L727.2 289.3 L733.5 294.9 L739.8 300.5 L746.0 306.2 L752.3 311.9 L758.4 317.7 L764.6 323.5 L770.7 329.3 L776.8 335.2 L782.9 341.2 L788.9 347.2 L794.9 353.2 L800.8 359.3 L806.7 365.4 L812.6 371.6 L818.4 377.8 L824.2 384.0 L830.0 390.3 L835.8 396.6 L841.5 403.0 L847.1 409.5 L852.8 415.9 L858.4 422.4" fill="none" stroke="#F2B33D" stroke-width="100" stroke-linecap="round" stroke-linejoin="round"/><path d="M741.9 986.6 C736.2 988.2 642.6 990.1 631.1 990.0 C619.7 989.9 473.5 984.1 467.4 983.1 C461.3 982.2 484.2 968.8 485.3 967.1 C486.5 965.4 493.9 944.6 495.1 942.0 C496.3 939.3 512.9 907.4 513.8 904.2 C514.8 901.1 517.1 869.3 517.1 866.5 C517.1 863.6 513.5 837.7 513.0 835.6 C512.6 833.4 506.3 817.4 505.7 815.0 C505.1 812.6 498.1 781.1 497.6 778.4 C497.0 775.7 491.8 752.0 491.9 749.8 C491.9 747.6 497.8 726.8 498.4 724.6 C498.9 722.5 505.1 700.7 505.7 698.3 C506.3 695.9 512.9 670.0 513.8 667.4 C514.8 664.9 527.7 639.5 528.5 637.7 C529.4 635.9 533.4 625.2 534.2 624.0 C535.1 622.8 547.6 610.5 548.9 609.1 C550.2 607.7 564.2 589.7 565.2 589.7 C566.1 589.7 570.9 607.1 570.9 609.1 C570.9 611.1 565.0 637.5 565.2 637.7 C565.3 637.9 574.3 614.7 574.9 614.8 C575.5 615.0 579.2 641.0 579.8 641.1 C580.4 641.3 589.0 620.5 589.6 618.2 C590.2 616.0 593.6 589.4 594.5 587.4 C595.4 585.4 610.5 571.2 611.6 570.2 C612.6 569.3 619.8 565.3 619.7 564.5 C619.6 563.6 609.6 551.2 609.1 549.6 C608.6 548.0 606.3 526.7 607.5 525.6 C608.7 524.5 635.5 522.8 637.6 523.3 C639.8 523.8 657.0 537.4 658.8 538.2 C660.6 538.9 678.6 540.4 680.8 541.6 C683.0 542.8 709.1 564.8 711.8 566.8 C714.4 568.8 742.2 588.0 743.5 589.7 C744.8 591.3 743.1 604.1 743.5 605.7 C744.0 607.2 753.7 624.7 754.1 627.4 C754.5 630.1 752.6 667.0 752.5 669.7 C752.3 672.4 750.7 691.4 750.0 692.6 C749.4 693.8 737.4 697.5 736.2 698.3 C735.0 699.2 722.8 710.2 721.5 713.2 C720.2 716.2 705.2 768.1 705.2 770.4 C705.2 772.6 720.1 767.8 721.5 766.9 C723.0 766.1 739.1 751.2 740.3 749.8 C741.5 748.4 748.4 733.9 750.0 732.6 C751.6 731.3 776.2 718.4 778.5 718.9 C780.9 719.4 805.5 741.8 807.0 744.1 C808.6 746.3 816.0 768.6 816.8 772.7 C817.6 776.7 825.7 836.6 825.8 841.3 C825.9 846.0 820.7 882.9 819.3 884.8 C817.8 886.7 792.0 885.9 790.8 887.1 C789.5 888.2 789.2 910.6 788.3 912.2 C787.5 913.8 771.2 923.2 770.4 924.8 C769.5 926.4 769.1 947.4 768.0 950.0 C766.8 952.5 747.6 984.9 741.9 986.6Z" fill="#FFFFFF"/><path d="M174.2 432.9 C176.0 430.6 237.4 405.8 241.0 404.4 C244.6 402.9 257.8 400.8 261.4 398.6 C264.9 396.4 322.6 354.4 326.5 351.7 C330.4 349.1 352.7 336.6 355.0 335.7 C357.4 334.8 383.5 329.0 383.5 330.0 C383.5 331.0 357.2 357.6 355.0 360.9 C352.9 364.2 331.4 407.5 332.2 408.9 C333.1 410.4 371.7 394.1 375.4 395.2 C379.1 396.3 418.1 434.5 421.0 436.4 C423.9 438.3 442.1 440.4 444.6 441.0 C447.1 441.5 477.9 450.9 481.3 450.1 C484.7 449.3 523.3 423.9 526.1 422.7 C528.8 421.4 544.2 420.7 546.4 420.4 C548.6 420.0 576.0 415.1 579.0 414.6 C582.0 414.2 616.4 408.9 618.9 410.1 C621.5 411.3 638.2 442.0 640.1 443.2 C642.0 444.5 662.5 439.9 664.5 441.0 C666.6 442.0 687.3 467.1 689.0 469.5 C690.6 472.0 706.2 499.2 705.2 500.4 C704.3 501.7 669.7 498.8 667.0 499.3 C664.2 499.8 642.1 513.5 638.5 513.0 C634.8 512.5 584.2 487.1 579.0 486.7 C573.8 486.3 517.6 501.4 513.8 503.9 C510.1 506.3 491.8 545.6 489.4 546.2 C487.0 546.8 458.5 519.4 456.8 518.7 C455.1 518.1 450.9 526.7 448.7 530.2 C446.5 533.6 406.6 599.3 403.9 601.1 C401.2 602.9 385.2 575.8 383.5 572.5 C381.8 569.2 367.4 524.6 363.2 521.0 C358.9 517.4 288.6 489.2 281.7 486.7 C274.9 484.2 203.1 462.6 198.7 460.4 C194.2 458.2 172.5 435.3 174.2 432.9Z" fill="#FFFFFF"/></svg>
+        Boomerander
+      </a>
+      <nav><a href="#join">Join<span class="long"> the Brain Gain</span></a></nav>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">For Michiganders who left and came back</p>
+        <h1>You left.<br>You learned.<br>You came <em>home.</em></h1>
+        <p class="lede">Boomerander is for everyone who packed up, went somewhere else, got good at something and brought it back to Michigan. We think that makes you the state's most underused asset.</p>
+        <a class="btn btn-solid" href="#join">Join the Brain Gain</a>
+        <a class="btn btn-line" href="#numbers">See the numbers</a>
+        <p class="note">Not a government program. Built by Boomeranders, for the next ones.</p>
+      </div>
+
+      <svg class="hero-mark" xmlns="http://www.w3.org/2000/svg" viewBox="28.4 50.6 969.4 969.4" role="img" aria-label="Boomerander logo: a boomerang bending over the state of Michigan"><path d="M167.7 337.7 L171.8 333.0 L176.0 328.2 L180.2 323.5 L184.4 318.9 L188.7 314.3 L192.9 309.7 L197.2 305.1 L201.5 300.6 L205.9 296.1 L210.2 291.6 L214.6 287.1 L219.0 282.7 L223.5 278.4 L228.0 274.0 L232.5 269.7 L237.0 265.5 L241.5 261.2 L246.1 257.0 L250.7 252.8 L255.3 248.7 L259.9 244.6 L264.6 240.5 L269.3 236.5 L274.0 232.4 L278.8 228.5 L283.6 224.5 L288.4 220.6 L293.2 216.7 L298.0 212.9 L302.9 209.1 L307.8 205.3 L312.7 201.5 L317.7 197.8 L322.7 194.1 L327.7 190.5 L332.7 186.8 L337.7 183.2 L342.8 179.7 L347.9 176.2 L353.0 172.7 L358.2 169.2 L363.4 165.8 L368.6 162.4 L373.8 159.0 L379.1 155.7 L384.3 152.4 L390.7 149.0 L397.1 145.9 L403.5 143.0 L409.8 140.5 L416.2 138.2 L422.5 136.3 L428.9 134.6 L435.2 133.2 L441.5 132.2 L447.9 131.4 L454.2 130.9 L460.5 130.6 L466.8 130.7 L473.1 131.1 L479.4 131.7 L485.7 132.7 L492.0 133.9 L498.3 135.5 L504.5 137.3 L510.8 139.4 L517.1 141.8 L523.3 144.5 L529.6 147.5 L535.8 150.8 L543.1 155.1 L550.4 159.5 L557.6 164.0 L564.8 168.4 L572.0 173.0 L579.1 177.5 L586.2 182.2 L593.3 186.8 L600.3 191.5 L607.3 196.3 L614.2 201.1 L621.2 205.9 L628.0 210.8 L634.9 215.7 L641.7 220.7 L648.5 225.7 L655.2 230.8 L662.0 235.9 L668.6 241.0 L675.3 246.2 L681.9 251.4 L688.4 256.7 L695.0 262.0 L701.5 267.4 L708.0 272.8 L714.4 278.3 L720.8 283.8 L727.2 289.3 L733.5 294.9 L739.8 300.5 L746.0 306.2 L752.3 311.9 L758.4 317.7 L764.6 323.5 L770.7 329.3 L776.8 335.2 L782.9 341.2 L788.9 347.2 L794.9 353.2 L800.8 359.3 L806.7 365.4 L812.6 371.6 L818.4 377.8 L824.2 384.0 L830.0 390.3 L835.8 396.6 L841.5 403.0 L847.1 409.5 L852.8 415.9 L858.4 422.4" fill="none" stroke="#F2B33D" stroke-width="100" stroke-linecap="round" stroke-linejoin="round"/><path d="M741.9 986.6 C736.2 988.2 642.6 990.1 631.1 990.0 C619.7 989.9 473.5 984.1 467.4 983.1 C461.3 982.2 484.2 968.8 485.3 967.1 C486.5 965.4 493.9 944.6 495.1 942.0 C496.3 939.3 512.9 907.4 513.8 904.2 C514.8 901.1 517.1 869.3 517.1 866.5 C517.1 863.6 513.5 837.7 513.0 835.6 C512.6 833.4 506.3 817.4 505.7 815.0 C505.1 812.6 498.1 781.1 497.6 778.4 C497.0 775.7 491.8 752.0 491.9 749.8 C491.9 747.6 497.8 726.8 498.4 724.6 C498.9 722.5 505.1 700.7 505.7 698.3 C506.3 695.9 512.9 670.0 513.8 667.4 C514.8 664.9 527.7 639.5 528.5 637.7 C529.4 635.9 533.4 625.2 534.2 624.0 C535.1 622.8 547.6 610.5 548.9 609.1 C550.2 607.7 564.2 589.7 565.2 589.7 C566.1 589.7 570.9 607.1 570.9 609.1 C570.9 611.1 565.0 637.5 565.2 637.7 C565.3 637.9 574.3 614.7 574.9 614.8 C575.5 615.0 579.2 641.0 579.8 641.1 C580.4 641.3 589.0 620.5 589.6 618.2 C590.2 616.0 593.6 589.4 594.5 587.4 C595.4 585.4 610.5 571.2 611.6 570.2 C612.6 569.3 619.8 565.3 619.7 564.5 C619.6 563.6 609.6 551.2 609.1 549.6 C608.6 548.0 606.3 526.7 607.5 525.6 C608.7 524.5 635.5 522.8 637.6 523.3 C639.8 523.8 657.0 537.4 658.8 538.2 C660.6 538.9 678.6 540.4 680.8 541.6 C683.0 542.8 709.1 564.8 711.8 566.8 C714.4 568.8 742.2 588.0 743.5 589.7 C744.8 591.3 743.1 604.1 743.5 605.7 C744.0 607.2 753.7 624.7 754.1 627.4 C754.5 630.1 752.6 667.0 752.5 669.7 C752.3 672.4 750.7 691.4 750.0 692.6 C749.4 693.8 737.4 697.5 736.2 698.3 C735.0 699.2 722.8 710.2 721.5 713.2 C720.2 716.2 705.2 768.1 705.2 770.4 C705.2 772.6 720.1 767.8 721.5 766.9 C723.0 766.1 739.1 751.2 740.3 749.8 C741.5 748.4 748.4 733.9 750.0 732.6 C751.6 731.3 776.2 718.4 778.5 718.9 C780.9 719.4 805.5 741.8 807.0 744.1 C808.6 746.3 816.0 768.6 816.8 772.7 C817.6 776.7 825.7 836.6 825.8 841.3 C825.9 846.0 820.7 882.9 819.3 884.8 C817.8 886.7 792.0 885.9 790.8 887.1 C789.5 888.2 789.2 910.6 788.3 912.2 C787.5 913.8 771.2 923.2 770.4 924.8 C769.5 926.4 769.1 947.4 768.0 950.0 C766.8 952.5 747.6 984.9 741.9 986.6Z" fill="#FFFFFF"/><path d="M174.2 432.9 C176.0 430.6 237.4 405.8 241.0 404.4 C244.6 402.9 257.8 400.8 261.4 398.6 C264.9 396.4 322.6 354.4 326.5 351.7 C330.4 349.1 352.7 336.6 355.0 335.7 C357.4 334.8 383.5 329.0 383.5 330.0 C383.5 331.0 357.2 357.6 355.0 360.9 C352.9 364.2 331.4 407.5 332.2 408.9 C333.1 410.4 371.7 394.1 375.4 395.2 C379.1 396.3 418.1 434.5 421.0 436.4 C423.9 438.3 442.1 440.4 444.6 441.0 C447.1 441.5 477.9 450.9 481.3 450.1 C484.7 449.3 523.3 423.9 526.1 422.7 C528.8 421.4 544.2 420.7 546.4 420.4 C548.6 420.0 576.0 415.1 579.0 414.6 C582.0 414.2 616.4 408.9 618.9 410.1 C621.5 411.3 638.2 442.0 640.1 443.2 C642.0 444.5 662.5 439.9 664.5 441.0 C666.6 442.0 687.3 467.1 689.0 469.5 C690.6 472.0 706.2 499.2 705.2 500.4 C704.3 501.7 669.7 498.8 667.0 499.3 C664.2 499.8 642.1 513.5 638.5 513.0 C634.8 512.5 584.2 487.1 579.0 486.7 C573.8 486.3 517.6 501.4 513.8 503.9 C510.1 506.3 491.8 545.6 489.4 546.2 C487.0 546.8 458.5 519.4 456.8 518.7 C455.1 518.1 450.9 526.7 448.7 530.2 C446.5 533.6 406.6 599.3 403.9 601.1 C401.2 602.9 385.2 575.8 383.5 572.5 C381.8 569.2 367.4 524.6 363.2 521.0 C358.9 517.4 288.6 489.2 281.7 486.7 C274.9 484.2 203.1 462.6 198.7 460.4 C194.2 458.2 172.5 435.3 174.2 432.9Z" fill="#FFFFFF"/></svg>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Definition -->
+    <section class="define">
+      <div class="wrap narrow">
+        <div class="card">
+          <div class="word">boom·er·an·der</div>
+          <div class="phon"><b>noun</b>/ˈbü-mə-ˌran-dər/</div>
+          <ol>
+            <li>A Michigander who moved away, built a life or a career somewhere else and came back on purpose.</li>
+            <li>Someone who chose Michigan twice.</li>
+          </ol>
+          <p class="usage">"She ran logistics in Atlanta for eight years. Now she's a Boomerander in Grand Rapids."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" id="numbers">
+      <div class="wrap">
+        <header>
+          <p class="eyebrow">By the numbers</p>
+          <h2>Michigan is great at raising people.<br><em>Getting them back</em> is the trick.</h2>
+          <p class="lede">Most people here were born here. Plenty leave. A real share come home. Here's what the data says.</p>
+        </header>
+
+        <div class="grid">
+          <article class="stat">
+            <div class="num" data-count="76.3" data-decimals="1" data-suffix="%">76.3%</div>
+            <p>of people living in Michigan were born in Michigan. Only Louisiana keeps a bigger share of its own.</p>
+            <cite>U.S. Census Bureau, ACS 2018 to 2022, via <a href="https://www.detroitnews.com/story/news/local/michigan/2023/12/07/census-highlights-michigans-lack-of-foreign-born-out-of-state-transplants/71817449007/" target="_blank" rel="noopener">The Detroit News</a></cite>
+          </article>
+
+          <article class="stat hot">
+            <div class="num" data-count="155000" data-suffix="">155,000</div>
+            <p>people moved from Michigan to another state in 2023. About 135,000 moved in.</p>
+            <cite>U.S. Census Bureau state-to-state migration flows, via <a href="https://bridgemi.com/michigan-government/michigan-continues-bleed-residents-losses-other-states-double-2023/" target="_blank" rel="noopener">Bridge Michigan</a></cite>
+          </article>
+
+          <article class="stat">
+            <div class="num" data-count="34" data-suffix="%">34%</div>
+            <p>of young adults who leave metro Detroit eventually move back. Grand Rapids gets 30%. The national average is 28%.</p>
+            <cite><a href="https://www.clevelandfed.org/publications/cleveland-fed-district-data-brief/2025/cfddb-20250219-boomerang-migration" target="_blank" rel="noopener">Federal Reserve Bank of Cleveland</a>, 2025 boomerang migration brief</cite>
+          </article>
+
+          <article class="stat hot">
+            <div class="num" data-count="1796" data-suffix="">1,796</div>
+            <p>more people moved to Michigan from other states than moved out between July 2024 and July 2025. First time that's happened since at least 1990.</p>
+            <cite>U.S. Census Bureau Vintage 2025 estimates, via <a href="https://bridgemi.com/michigan-government/michigan-gains-28k-residents-reversing-losses-to-other-states/" target="_blank" rel="noopener">Bridge Michigan</a></cite>
+          </article>
+
+          <article class="stat">
+            <div class="num" data-count="49" data-suffix="th">49th</div>
+            <p>in population growth since 1990. Only West Virginia grew slower. Every person who comes home moves that number.</p>
+            <cite>Growing Michigan Together Council, via <a href="https://bridgemi.com/michigan-government/michigan-population-panel-files-recommendations-now-hard-work-begins/" target="_blank" rel="noopener">Bridge Michigan</a></cite>
+          </article>
+
+          <article class="stat">
+            <div class="num" data-count="950" data-suffix="+">950+</div>
+            <p>Detroit expats flew home for Detroit Homecoming between 2014 and 2024. Its ten biggest resulting investments and donations top $1 billion.</p>
+            <cite>Crain's Detroit Business, via <a href="https://en.wikipedia.org/wiki/Detroit_Homecoming" target="_blank" rel="noopener">Wikipedia</a></cite>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section class="why">
+      <div class="wrap">
+        <p class="eyebrow">Why this matters</p>
+        <h2>Leaving wasn't quitting.<br><em>It was research.</em></h2>
+        <div class="points">
+          <div>
+            <div class="n">01</div>
+            <h3>You've seen how other places do it.</h3>
+            <p>How Austin funds startups. How Chicago moves people. How Charlotte hires. That knowledge came home with you and it's worth more here than it was there.</p>
+          </div>
+          <div>
+            <div class="n">02</div>
+            <h3>You brought a network back.</h3>
+            <p>Every Boomerander has a phone full of people in other states. That's a pipeline for jobs, customers and investment that Michigan can't buy with an ad campaign.</p>
+          </div>
+          <div>
+            <div class="n">03</div>
+            <h3>You chose Michigan twice.</h3>
+            <p>Once by accident of birth. Once on purpose. People who pick a place tend to work hardest to make it better. We want to put that to use.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section class="join" id="join">
+      <div class="wrap narrow">
+        <header>
+          <p class="eyebrow">The Brain Gain</p>
+          <h2>Tell us where you went and <em>what you got good at.</em></h2>
+          <p class="lede">Michigan spent decades talking about brain drain. This is the other direction. Some Boomeranders want a job. Some are hiring. Plenty just want to mentor, make an intro or help the next person find their way home. All of it counts.</p>
+        </header>
+
+        <form id="talent-form" action="" method="POST" novalidate>
+          <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+
+          <fieldset>
+            <legend>About you</legend>
+            <div class="row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field full">
+                <span class="label" id="status-label">Where are you in the boomerang?</span>
+                <div class="choices" role="radiogroup" aria-labelledby="status-label">
+                  <label class="choice"><input type="radio" name="status" value="Back in Michigan" required checked> I'm back in Michigan</label>
+                  <label class="choice"><input type="radio" name="status" value="Planning to come back"> I'm planning to come back</label>
+                  <label class="choice"><input type="radio" name="status" value="Never left, want to help"> I never left but want to help</label>
+                  <label class="choice"><input type="radio" name="status" value="Hiring manager or employer"> I'm an employer looking for talent</label>
+                </div>
+              </div>
+              <div class="field">
+                <label for="mi_city">Michigan city or county</label>
+                <input id="mi_city" name="michigan_city" type="text" placeholder="Traverse City" required>
+              </div>
+              <div class="field">
+                <label for="linkedin">LinkedIn <span class="opt">(optional)</span></label>
+                <input id="linkedin" name="linkedin" type="url" placeholder="https://linkedin.com/in/…">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Where you went</legend>
+            <div class="row">
+              <div class="field">
+                <label for="away_place">Where did you live?</label>
+                <p class="hint">City, state or country. List more than one if you bounced around.</p>
+                <input id="away_place" name="lived_away_in" type="text" placeholder="Denver, then Seattle">
+              </div>
+              <div class="field">
+                <label for="years_away">How long were you gone?</label>
+                <p class="hint">Rough is fine.</p>
+                <select id="years_away" name="years_away">
+                  <option value="">Choose one</option>
+                  <option>Less than 2 years</option>
+                  <option>2 to 5 years</option>
+                  <option>5 to 10 years</option>
+                  <option>10 to 20 years</option>
+                  <option>20+ years</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>What you bring</legend>
+            <div class="row">
+              <div class="field">
+                <label for="industry">Industry</label>
+                <select id="industry" name="industry" required>
+                  <option value="">Choose one</option>
+                  <option>Advanced manufacturing / automotive / mobility</option>
+                  <option>Agriculture / food / beverage</option>
+                  <option>Arts / media / entertainment</option>
+                  <option>Construction / trades / real estate</option>
+                  <option>Education / research</option>
+                  <option>Energy / environment</option>
+                  <option>Finance / insurance / accounting</option>
+                  <option>Government / nonprofit</option>
+                  <option>Healthcare / life sciences</option>
+                  <option>Hospitality / tourism / retail</option>
+                  <option>Law</option>
+                  <option>Logistics / supply chain</option>
+                  <option>Marketing / sales / communications</option>
+                  <option>Technology / software / data</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="role">Role or title</label>
+                <input id="role" name="role" type="text" placeholder="Operations director">
+              </div>
+              <div class="field full">
+                <label for="talent">What did you do out there, and what are you great at?</label>
+                <p class="hint">The stuff that doesn't fit on a résumé counts. Built a team from scratch? Launched something? Speak three languages? Tell us.</p>
+                <textarea id="talent" name="talent" required></textarea>
+              </div>
+              <div class="field full">
+                <span class="label" id="help-label">How do you want to be involved? <span class="opt">(pick any)</span></span>
+                <div class="choices" role="group" aria-labelledby="help-label">
+                  <label class="choice"><input type="checkbox" name="involvement" value="Open to job opportunities"> I'm open to job opportunities</label>
+                  <label class="choice"><input type="checkbox" name="involvement" value="Hiring"> I'm hiring</label>
+                  <label class="choice"><input type="checkbox" name="involvement" value="Mentor"> I'll mentor someone</label>
+                  <label class="choice"><input type="checkbox" name="involvement" value="Make intros"> I'll make introductions</label>
+                  <label class="choice"><input type="checkbox" name="involvement" value="Help others move back"> I'll help people move back</label>
+                  <label class="choice"><input type="checkbox" name="involvement" value="Share my story"> I'll share my story</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <label class="consent">
+            <input type="checkbox" name="consent" value="yes" required>
+            <span>It's OK to add me to the Brain Gain and contact me about jobs, introductions, ways to help and events. We don't sell your information.</span>
+          </label>
+
+          <div class="submit-row">
+            <button class="btn btn-solid" type="submit">Join the Brain Gain</button>
+            <small>Takes about two minutes.</small>
+          </div>
+          <div class="status" id="form-status" role="status" hidden></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="wrap narrow">
+        <p class="eyebrow">Questions</p>
+        <h2>The short <em>answers.</em></h2>
+        <div class="qa">
+          <h3>What is a Boomerander?</h3>
+          <p>A Boomerander is a Michigander who moved away, built a life or a career somewhere else and came back to Michigan on purpose. The word is a play on Michigander.</p>
+        </div>
+        <div class="qa">
+          <h3>How many people who leave Michigan move back?</h3>
+          <p>About a third. The Federal Reserve Bank of Cleveland found that 34% of young adults who leave metro Detroit eventually move back, compared with 30% for Grand Rapids and a 28% national average.</p>
+        </div>
+        <div class="qa">
+          <h3>How many people leave Michigan each year?</h3>
+          <p>About 155,000 people moved from Michigan to another state in 2023 and about 135,000 moved in, according to U.S. Census Bureau data. From July 2024 to July 2025 Michigan gained 1,796 more residents from other states than it lost, its first net gain since at least 1990.</p>
+        </div>
+        <div class="qa">
+          <h3>What is the Brain Gain?</h3>
+          <p>The Brain Gain is Boomerander's free network of Michigan people with experience from other places. Members use it to find jobs, hire, mentor, make introductions and help other people move back to Michigan.</p>
+        </div>
+        <div class="qa">
+          <h3>Do I need to be looking for a job to join?</h3>
+          <p>No. Plenty of Boomeranders already have jobs. You can join to mentor, make introductions, share your story or help someone else find their way home.</p>
+        </div>
+        <div class="qa">
+          <h3>Is Boomerander a government program?</h3>
+          <p>No. Boomerander is an independent community built by people who left Michigan and came back. It is not run by a state agency or an economic development group.</p>
+        </div>
+        <div class="qa">
+          <h3>Who can join?</h3>
+          <p>Anyone who moved back to Michigan, anyone planning to come back, Michiganders who never left but want to help and employers looking for people with outside experience.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <a class="logo" href="#top">
+          <svg viewBox="28.4 50.6 969.4 969.4" aria-hidden="true"><path d="M167.7 337.7 L171.8 333.0 L176.0 328.2 L180.2 323.5 L184.4 318.9 L188.7 314.3 L192.9 309.7 L197.2 305.1 L201.5 300.6 L205.9 296.1 L210.2 291.6 L214.6 287.1 L219.0 282.7 L223.5 278.4 L228.0 274.0 L232.5 269.7 L237.0 265.5 L241.5 261.2 L246.1 257.0 L250.7 252.8 L255.3 248.7 L259.9 244.6 L264.6 240.5 L269.3 236.5 L274.0 232.4 L278.8 228.5 L283.6 224.5 L288.4 220.6 L293.2 216.7 L298.0 212.9 L302.9 209.1 L307.8 205.3 L312.7 201.5 L317.7 197.8 L322.7 194.1 L327.7 190.5 L332.7 186.8 L337.7 183.2 L342.8 179.7 L347.9 176.2 L353.0 172.7 L358.2 169.2 L363.4 165.8 L368.6 162.4 L373.8 159.0 L379.1 155.7 L384.3 152.4 L390.7 149.0 L397.1 145.9 L403.5 143.0 L409.8 140.5 L416.2 138.2 L422.5 136.3 L428.9 134.6 L435.2 133.2 L441.5 132.2 L447.9 131.4 L454.2 130.9 L460.5 130.6 L466.8 130.7 L473.1 131.1 L479.4 131.7 L485.7 132.7 L492.0 133.9 L498.3 135.5 L504.5 137.3 L510.8 139.4 L517.1 141.8 L523.3 144.5 L529.6 147.5 L535.8 150.8 L543.1 155.1 L550.4 159.5 L557.6 164.0 L564.8 168.4 L572.0 173.0 L579.1 177.5 L586.2 182.2 L593.3 186.8 L600.3 191.5 L607.3 196.3 L614.2 201.1 L621.2 205.9 L628.0 210.8 L634.9 215.7 L641.7 220.7 L648.5 225.7 L655.2 230.8 L662.0 235.9 L668.6 241.0 L675.3 246.2 L681.9 251.4 L688.4 256.7 L695.0 262.0 L701.5 267.4 L708.0 272.8 L714.4 278.3 L720.8 283.8 L727.2 289.3 L733.5 294.9 L739.8 300.5 L746.0 306.2 L752.3 311.9 L758.4 317.7 L764.6 323.5 L770.7 329.3 L776.8 335.2 L782.9 341.2 L788.9 347.2 L794.9 353.2 L800.8 359.3 L806.7 365.4 L812.6 371.6 L818.4 377.8 L824.2 384.0 L830.0 390.3 L835.8 396.6 L841.5 403.0 L847.1 409.5 L852.8 415.9 L858.4 422.4" fill="none" stroke="#F2B33D" stroke-width="100" stroke-linecap="round" stroke-linejoin="round"/><path d="M741.9 986.6 C736.2 988.2 642.6 990.1 631.1 990.0 C619.7 989.9 473.5 984.1 467.4 983.1 C461.3 982.2 484.2 968.8 485.3 967.1 C486.5 965.4 493.9 944.6 495.1 942.0 C496.3 939.3 512.9 907.4 513.8 904.2 C514.8 901.1 517.1 869.3 517.1 866.5 C517.1 863.6 513.5 837.7 513.0 835.6 C512.6 833.4 506.3 817.4 505.7 815.0 C505.1 812.6 498.1 781.1 497.6 778.4 C497.0 775.7 491.8 752.0 491.9 749.8 C491.9 747.6 497.8 726.8 498.4 724.6 C498.9 722.5 505.1 700.7 505.7 698.3 C506.3 695.9 512.9 670.0 513.8 667.4 C514.8 664.9 527.7 639.5 528.5 637.7 C529.4 635.9 533.4 625.2 534.2 624.0 C535.1 622.8 547.6 610.5 548.9 609.1 C550.2 607.7 564.2 589.7 565.2 589.7 C566.1 589.7 570.9 607.1 570.9 609.1 C570.9 611.1 565.0 637.5 565.2 637.7 C565.3 637.9 574.3 614.7 574.9 614.8 C575.5 615.0 579.2 641.0 579.8 641.1 C580.4 641.3 589.0 620.5 589.6 618.2 C590.2 616.0 593.6 589.4 594.5 587.4 C595.4 585.4 610.5 571.2 611.6 570.2 C612.6 569.3 619.8 565.3 619.7 564.5 C619.6 563.6 609.6 551.2 609.1 549.6 C608.6 548.0 606.3 526.7 607.5 525.6 C608.7 524.5 635.5 522.8 637.6 523.3 C639.8 523.8 657.0 537.4 658.8 538.2 C660.6 538.9 678.6 540.4 680.8 541.6 C683.0 542.8 709.1 564.8 711.8 566.8 C714.4 568.8 742.2 588.0 743.5 589.7 C744.8 591.3 743.1 604.1 743.5 605.7 C744.0 607.2 753.7 624.7 754.1 627.4 C754.5 630.1 752.6 667.0 752.5 669.7 C752.3 672.4 750.7 691.4 750.0 692.6 C749.4 693.8 737.4 697.5 736.2 698.3 C735.0 699.2 722.8 710.2 721.5 713.2 C720.2 716.2 705.2 768.1 705.2 770.4 C705.2 772.6 720.1 767.8 721.5 766.9 C723.0 766.1 739.1 751.2 740.3 749.8 C741.5 748.4 748.4 733.9 750.0 732.6 C751.6 731.3 776.2 718.4 778.5 718.9 C780.9 719.4 805.5 741.8 807.0 744.1 C808.6 746.3 816.0 768.6 816.8 772.7 C817.6 776.7 825.7 836.6 825.8 841.3 C825.9 846.0 820.7 882.9 819.3 884.8 C817.8 886.7 792.0 885.9 790.8 887.1 C789.5 888.2 789.2 910.6 788.3 912.2 C787.5 913.8 771.2 923.2 770.4 924.8 C769.5 926.4 769.1 947.4 768.0 950.0 C766.8 952.5 747.6 984.9 741.9 986.6Z" fill="#FFFFFF"/><path d="M174.2 432.9 C176.0 430.6 237.4 405.8 241.0 404.4 C244.6 402.9 257.8 400.8 261.4 398.6 C264.9 396.4 322.6 354.4 326.5 351.7 C330.4 349.1 352.7 336.6 355.0 335.7 C357.4 334.8 383.5 329.0 383.5 330.0 C383.5 331.0 357.2 357.6 355.0 360.9 C352.9 364.2 331.4 407.5 332.2 408.9 C333.1 410.4 371.7 394.1 375.4 395.2 C379.1 396.3 418.1 434.5 421.0 436.4 C423.9 438.3 442.1 440.4 444.6 441.0 C447.1 441.5 477.9 450.9 481.3 450.1 C484.7 449.3 523.3 423.9 526.1 422.7 C528.8 421.4 544.2 420.7 546.4 420.4 C548.6 420.0 576.0 415.1 579.0 414.6 C582.0 414.2 616.4 408.9 618.9 410.1 C621.5 411.3 638.2 442.0 640.1 443.2 C642.0 444.5 662.5 439.9 664.5 441.0 C666.6 442.0 687.3 467.1 689.0 469.5 C690.6 472.0 706.2 499.2 705.2 500.4 C704.3 501.7 669.7 498.8 667.0 499.3 C664.2 499.8 642.1 513.5 638.5 513.0 C634.8 512.5 584.2 487.1 579.0 486.7 C573.8 486.3 517.6 501.4 513.8 503.9 C510.1 506.3 491.8 545.6 489.4 546.2 C487.0 546.8 458.5 519.4 456.8 518.7 C455.1 518.1 450.9 526.7 448.7 530.2 C446.5 533.6 406.6 599.3 403.9 601.1 C401.2 602.9 385.2 575.8 383.5 572.5 C381.8 569.2 367.4 524.6 363.2 521.0 C358.9 517.4 288.6 489.2 281.7 486.7 C274.9 484.2 203.1 462.6 198.7 460.4 C194.2 458.2 172.5 435.3 174.2 432.9Z" fill="#FFFFFF"/></svg>
+          Boomerander
+        </a>
+        <p>Not a government program. Built by Boomeranders, for the next ones.</p>
+      </div>
+      <p><a href="#join">Join the Brain Gain</a></p>
+    </div>
+  </footer>
+
+  <script>
+    /* Paste your Google Apps Script web app URL here (it ends in /exec).
+       See README.md. */
+    const FORM_ENDPOINT = "";
+
+    // Count-up for stats when they scroll into view
+    (function () {
+      const nums = document.querySelectorAll(".stat .num[data-count]");
+      if (matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return;
+      const fmt = (v, d) => v.toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d });
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (!e.isIntersecting) return;
+          io.unobserve(e.target);
+          const el = e.target, end = parseFloat(el.dataset.count), d = +(el.dataset.decimals || 0), suf = el.dataset.suffix || "";
+          const t0 = performance.now(), dur = 1400;
+          const tick = (t) => {
+            const p = Math.min((t - t0) / dur, 1), eased = 1 - Math.pow(1 - p, 3);
+            el.textContent = fmt(end * eased, d) + suf;
+            if (p < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        });
+      }, { threshold: 0.4 });
+      nums.forEach((n) => io.observe(n));
+    })();
+
+    // Form submit
+    (function () {
+      const form = document.getElementById("talent-form");
+      const status = document.getElementById("form-status");
+      const show = (msg, err) => { status.textContent = msg; status.classList.toggle("err", !!err); status.hidden = false; };
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        if (!form.checkValidity()) {
+          const bad = form.querySelector("input:invalid, select:invalid, textarea:invalid");
+          show(bad && bad.type === "checkbox" ? "Please check the consent box so we can add you." : "A few required fields are empty. Name, email, Michigan city, industry and your talent are the must-haves.", true);
+          if (bad) bad.focus();
+          return;
+        }
+        if (!FORM_ENDPOINT) {
+          show("The form isn't connected yet. Add a FORM_ENDPOINT in index.html to start collecting submissions.", true);
+          return;
+        }
+        const btn = form.querySelector("button[type=submit]");
+        btn.disabled = true; btn.textContent = "Sending…";
+        try {
+          const data = new FormData(form);
+          const picks = data.getAll("involvement");
+          data.delete("involvement");
+          data.append("involvement", picks.join(", "));
+          // Apps Script doesn't send CORS headers, so the reply can't be read.
+          // no-cors still delivers the row, and a network failure still throws.
+          await fetch(FORM_ENDPOINT, { method: "POST", mode: "no-cors", body: new URLSearchParams(data) });
+          form.innerHTML = '<div class="thanks"><p class="eyebrow">You\'re in</p><h3>Welcome home, Boomerander.</h3><p>We\'ll be in touch when there\'s a job, a person to help or an event that fits.</p></div>';
+        } catch (err) {
+          btn.disabled = false; btn.textContent = "Join the Brain Gain";
+          show("Something went wrong sending that. Try again in a minute.", true);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

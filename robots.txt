@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /setup/
+
+Sitemap: https://boomerander.com/sitemap.xml
