@@ -243,6 +243,25 @@
     .bridge { padding: 5.5rem 0 6rem; background: var(--paper); border-top: 1px solid var(--rule); }
     .bridge h2 { margin-bottom: 1.5rem; }
     .bridge .lede + .lede { margin-top: 1rem; }
+    .bridge .orgs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem 2rem;
+      margin: 2.25rem 0 .9rem;
+      padding-top: 1.75rem;
+      border-top: 1px solid var(--rule);
+    }
+    .bridge .orgs h3 {
+      font: 600 .78rem/1 var(--sans);
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      color: var(--cherry);
+      margin-bottom: .75rem;
+    }
+    .bridge .orgs ul { margin: 0; padding: 0; list-style: none; font-size: .98rem; }
+    .bridge .orgs li + li { margin-top: .4rem; }
+    .bridge .note { margin: 0 0 2rem; font-size: .9rem; color: var(--muted); }
+    @media (max-width: 600px) { .bridge .orgs { grid-template-columns: 1fr; gap: 1.5rem; } }
 
     /* ---------- Founder note ---------- */
     .origin { padding: 5.5rem 0 1rem; }
@@ -499,11 +518,50 @@
     <section class="bridge">
       <div class="wrap narrow">
         <p class="eyebrow">Where this fits</p>
-        <h2>Michigan has no shortage of <em>people building.</em></h2>
-        <p class="lede">The Innovation Alliance is pulling the startup world together. Universities are spinning research into companies. Pitch competitions are writing checks. Chambers are recruiting employers. Detroit Homecoming flies expats in every fall.</p>
-        <p class="lede">What none of them keeps is a list of the people who already moved back.</p>
-        <p class="lede">That's the bridge. If you're building something here, Boomeranders are some of the most useful people in the state, and until now there was no way to find them.</p>
-        <p class="lede">Talent isn't only tech, either. A Boomerander might be a nurse manager, a welder, a logistics director, a teacher, a chef, a machinist, an accountant or a founder who sold a company in Austin. All of it counts here.</p>
+        <h2>Michigan is already full of <em>people building.</em></h2>
+        <p class="lede">This isn't a new idea and we're not pretending otherwise. The state is thick with groups doing this work, and doing it well.</p>
+
+        <div class="orgs">
+          <div>
+            <h3>Innovation and startups</h3>
+            <ul>
+              <li><a href="https://www.innovationalliancemi.org/" target="_blank" rel="noopener">Innovation Alliance</a></li>
+              <li><a href="https://annarborusa.org/" target="_blank" rel="noopener">Ann Arbor SPARK</a></li>
+              <li><a href="https://techtowndetroit.org/" target="_blank" rel="noopener">TechTown Detroit</a></li>
+              <li><a href="https://www.automationalley.com/" target="_blank" rel="noopener">Automation Alley</a></li>
+              <li><a href="https://20fathoms.org/" target="_blank" rel="noopener">20Fathoms</a></li>
+              <li><a href="https://michigancentral.com/" target="_blank" rel="noopener">Michigan Central</a></li>
+              <li><a href="https://pitchmi.org/" target="_blank" rel="noopener">PitchMI</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Capital</h3>
+            <ul>
+              <li><a href="https://michiganvca.org/" target="_blank" rel="noopener">Michigan Venture Capital Association</a></li>
+              <li><a href="https://investdetroit.com/" target="_blank" rel="noopener">Invest Detroit</a></li>
+              <li><a href="https://michigancapitalnetwork.com/" target="_blank" rel="noopener">Michigan Capital Network</a></li>
+              <li><a href="https://citysidevc.com/birmingham-angels/" target="_blank" rel="noopener">Birmingham Angels</a></li>
+              <li><a href="https://northernmichiganangels.com/" target="_blank" rel="noopener">Northern Michigan Angels</a></li>
+              <li><a href="https://michiganrise.com/" target="_blank" rel="noopener">Michigan Rise</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Community and talent</h3>
+            <ul>
+              <li><a href="https://www.blacktechsaturdays.com/" target="_blank" rel="noopener">Black Tech Saturdays</a></li>
+              <li><a href="https://michiganfoundersfund.com/" target="_blank" rel="noopener">Michigan Founders Fund</a></li>
+              <li><a href="https://hellowestmichigan.com/" target="_blank" rel="noopener">Hello West Michigan</a></li>
+              <li><a href="https://www.rightplace.org/" target="_blank" rel="noopener">The Right Place</a></li>
+              <li><a href="https://investupmi.com/" target="_blank" rel="noopener">InvestUP</a></li>
+              <li><a href="https://www.michiganbusiness.org/" target="_blank" rel="noopener">MEDC</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="note">A partial list. If your group belongs here, <a href="#contact">tell us</a> and we'll add it.</p>
+
+        <p class="lede">Here's the part that's missing. Nearly all of it is built for founders and investors. That's the right bet for startups, and it leaves out most people.</p>
+        <p class="lede">Not everyone who came home wants to start a company. Some want a good job. Some want to be employee number seven at somebody else's startup. Some want to mentor a kid or sit on a board. Some run a machine shop and could hire two people tomorrow. A Boomerander might be a nurse manager, a welder, a logistics director, a teacher, a chef, a machinist, an accountant or a founder who sold a company in Austin.</p>
+        <p class="lede">Boomerander counts all of them, then hands that list to the people already doing the work.</p>
         <p class="lede">Working on this from another angle? <a href="#contact">Let's compare notes.</a></p>
       </div>
     </section>
